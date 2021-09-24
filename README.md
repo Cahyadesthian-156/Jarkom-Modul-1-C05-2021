@@ -133,6 +133,7 @@ Langkah
 <img src="screenshot/nomer10-history.png" width="800"> 
 
 -> Follow TCP yang di tuju
+
 <img src="screenshot/nomer10-isi-history.png" width="800"> 
 
 -> Pada bagian line-based terdapat beberapa tulisan seperti “bukanapaapa.txt” lalu ftp-data.command contains "bukanapaapa" 
@@ -145,7 +146,7 @@ Langkah
 <img src="screenshot/nomer10-isi-pdf.png" width="800"> 
 
 
-### 11.
+### 11. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80! 
 **Jawab:**
 
 Langkah
@@ -153,7 +154,7 @@ Langkah
 <img src="screenshot/no 11.PNG" width="800"> 
 
 
-### 12.
+### 12. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 **Jawab:**
 
 Langkah
@@ -161,7 +162,7 @@ Langkah
 <img src="screenshot/no 12.PNG" width="800"> 
 
 
-### 13.
+### 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 **Jawab:**
 
 Langkah
@@ -169,7 +170,7 @@ Langkah
 <img src="screenshot/no 13.PNG" width="800"> 
 
 
-### 14.
+### 14. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
 **Jawab:**
 
 Langkah
@@ -177,7 +178,7 @@ Langkah
 <img src="screenshot/no 14.PNG" width="800"> 
 
 
-### 15.
+### 15. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 **Jawab**
 
 Langkah
