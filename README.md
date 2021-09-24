@@ -104,6 +104,7 @@ Pada filter yang digunakan yaitu ftp.request.command == STOR dimana akan mencari
 Pada filter yang digunakan yaitu ftp.request.command == RETR dimana akan mencari data file yang di downlaod dari ftp tersebut
 <img src="screenshot/nomer8-retr.png" width="800"> 
 
+
 ### 9. Dari paket-paket yang menuju FTP terdapat indikasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!
 **Jawab:**
 
@@ -144,19 +145,31 @@ Langkah
 <img src="screenshot/nomer10-isi-pdf.png" width="800"> 
 
 
-
-
 ### 11.
-**Jawab**
+**Jawab:**
 
+Langkah
+-> Pada filter wireshark menuliskan ```“tcp src port 80``` untuk mengambil paket yang berasal dari port 80
+Hasil:
+<img src="screenshot/no 11.PNG" width="800"> 
 
 
 ### 12.
-**Jawab**
+**Jawab:**
+
+Langkah
+-> Pada filter wireshark menuliskan ```“tcp src port 80``` untuk mengambil paket yang berasal dari port 80
+Hasil:
+<img src="screenshot/no 12.PNG" width="800"> 
 
 
 ### 13.
-**Jawab**
+**Jawab:**
+
+Langkah
+-> Pada filter wireshark menuliskan ```dst port 443``` untuk menampilkan paket yang menuju port 443
+Hasil:
+<img src="screenshot/no 13.PNG" width="800"> 
 
 
 
