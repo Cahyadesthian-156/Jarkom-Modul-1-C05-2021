@@ -188,4 +188,7 @@ Langkah
 -> Pada filter wireshark menuliskan ```src net 192.168.1.4```
 <img src="screenshot/no 15.png" width="800"> 
 
+### Kendala Praktikum:
+Soal no.12 (Port 21 tidak menampilkan apa apa)
+Soal no. 10 (Masih belum dapat membedakan penggunaan filter untuk mendapatkan file 
 
