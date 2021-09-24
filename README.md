@@ -191,5 +191,6 @@ Langkah
 ### Kendala Praktikum:
 
 -> Pada persoalan no.12 (Port 21 tidak menampilkan apa apa)
+
 -> Pada persoalan no. 10 (Masih belum dapat membedakan penggunaan filter untuk mendapatkan file 
 
