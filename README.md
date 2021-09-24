@@ -150,6 +150,7 @@ Langkah
 
 Langkah
 -> Pada filter wireshark menuliskan ```“tcp src port 80``` untuk mengambil paket yang berasal dari port 80
+
 Hasil:
 <img src="screenshot/no 11.PNG" width="800"> 
 
@@ -158,7 +159,8 @@ Hasil:
 **Jawab:**
 
 Langkah
--> Pada filter wireshark menuliskan ```“tcp src port 80``` untuk mengambil paket yang berasal dari port 80
+-> Pada filter wireshark menuliskan ```tcp src port 80``` untuk mengambil paket yang berasal dari port 80
+
 Hasil:
 <img src="screenshot/no 12.PNG" width="800"> 
 
@@ -168,20 +170,28 @@ Hasil:
 
 Langkah
 -> Pada filter wireshark menuliskan ```dst port 443``` untuk menampilkan paket yang menuju port 443
+
 Hasil:
 <img src="screenshot/no 13.PNG" width="800"> 
 
 
-
 ### 14.
-**Jawab**
+**Jawab:**
 
+Langkah
+-> Pada filter wireshark menuliskan ```dst host kemenag.go.id```
 
 
 ### 15.
 **Jawab**
 
+Langkah
+-> Mencari ip kita dengan menggunakan Command Prompt dengan perintah ```ipconfig```
+<img src="screenshot/no 15 ip address.png" width="800"> 
 
+-> Pada filter wireshark menuliskan ```src net 202.67.40.245```
 
+Hasil: 
+<img src="screenshot/no 15.png" width="800"> 
 
 
