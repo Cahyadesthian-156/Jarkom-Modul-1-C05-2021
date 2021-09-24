@@ -189,6 +189,7 @@ Langkah
 <img src="screenshot/no 15.png" width="800"> 
 
 ### Kendala Praktikum:
-Soal no.12 (Port 21 tidak menampilkan apa apa)
-Soal no. 10 (Masih belum dapat membedakan penggunaan filter untuk mendapatkan file 
+
+-> Pada persoalan no.12 (Port 21 tidak menampilkan apa apa)
+-> Pada persoalan no. 10 (Masih belum dapat membedakan penggunaan filter untuk mendapatkan file 
 
