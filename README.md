@@ -150,8 +150,6 @@ Langkah
 
 Langkah
 -> Pada filter wireshark menuliskan ```“tcp src port 80``` untuk mengambil paket yang berasal dari port 80
-
-Hasil:
 <img src="screenshot/no 11.PNG" width="800"> 
 
 
@@ -159,9 +157,7 @@ Hasil:
 **Jawab:**
 
 Langkah
--> Pada filter wireshark menuliskan ```tcp src port 80``` untuk mengambil paket yang berasal dari port 80
-
-Hasil:
+-> Paket yang mengandung filezilla terdapat pada saat kita melakukan akses ke fi ftp://ip adress (ftp://192.168.43.165/) dan  Pada filter wireshark menuliskan ```port 21```
 <img src="screenshot/no 12.PNG" width="800"> 
 
 
@@ -170,8 +166,6 @@ Hasil:
 
 Langkah
 -> Pada filter wireshark menuliskan ```dst port 443``` untuk menampilkan paket yang menuju port 443
-
-Hasil:
 <img src="screenshot/no 13.PNG" width="800"> 
 
 
@@ -180,6 +174,7 @@ Hasil:
 
 Langkah
 -> Pada filter wireshark menuliskan ```dst host kemenag.go.id```
+<img src="screenshot/no 14.PNG" width="800"> 
 
 
 ### 15.
@@ -189,9 +184,7 @@ Langkah
 -> Mencari ip kita dengan menggunakan Command Prompt dengan perintah ```ipconfig```
 <img src="screenshot/no 15 ip address.png" width="800"> 
 
--> Pada filter wireshark menuliskan ```src net 202.67.40.245```
-
-Hasil: 
+-> Pada filter wireshark menuliskan ```src net 192.168.1.4```
 <img src="screenshot/no 15.png" width="800"> 
 
 
