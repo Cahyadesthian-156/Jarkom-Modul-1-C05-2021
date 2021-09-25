@@ -104,6 +104,7 @@ Pada filter yang digunakan yaitu ftp.request.command == STOR dimana akan mencari
 Pada filter yang digunakan yaitu ftp.request.command == RETR dimana akan mencari data file yang di downlaod dari ftp tersebut
 <img src="screenshot/nomer8-retr.png" width="800"> 
 
+
 ### 9. Dari paket-paket yang menuju FTP terdapat indikasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!
 **Jawab:**
 
@@ -132,6 +133,7 @@ Langkah
 <img src="screenshot/nomer10-history.png" width="800"> 
 
 -> Follow TCP yang di tuju
+
 <img src="screenshot/nomer10-isi-history.png" width="800"> 
 
 -> Pada bagian line-based terdapat beberapa tulisan seperti “bukanapaapa.txt” lalu ftp-data.command contains "bukanapaapa" 
@@ -144,31 +146,51 @@ Langkah
 <img src="screenshot/nomer10-isi-pdf.png" width="800"> 
 
 
+### 11. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80! 
+**Jawab:**
+
+Langkah
+-> Pada filter wireshark menuliskan ```“tcp src port 80``` untuk mengambil paket yang berasal dari port 80
+<img src="screenshot/no 11.PNG" width="800"> 
 
 
-### 11.
+### 12. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+**Jawab:**
+
+Langkah
+-> Paket yang mengandung filezilla terdapat pada saat kita melakukan akses ke fi ftp://ip adress (ftp://192.168.43.165/) dan  Pada filter wireshark menuliskan ```port 21```
+<img src="screenshot/no 12.PNG" width="800"> 
+
+
+### 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+**Jawab:**
+
+Langkah
+-> Pada filter wireshark menuliskan ```dst port 443``` untuk menampilkan paket yang menuju port 443
+<img src="screenshot/no 13.PNG" width="800"> 
+
+
+### 14. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
+**Jawab:**
+
+Langkah
+-> Pada filter wireshark menuliskan ```dst host kemenag.go.id```
+<img src="screenshot/no 14.PNG" width="800"> 
+
+
+### 15. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 **Jawab**
 
+Langkah
+-> Mencari ip kita dengan menggunakan Command Prompt dengan perintah ```ipconfig```
+<img src="screenshot/no 15 ip address.png" width="800"> 
 
+-> Pada filter wireshark menuliskan ```src net 192.168.1.4```
+<img src="screenshot/no 15.png" width="800"> 
 
-### 12.
-**Jawab**
+### Kendala Praktikum:
 
+-> Pada persoalan no.12 (Port 21 tidak menampilkan apa apa)
 
-### 13.
-**Jawab**
-
-
-
-### 14.
-**Jawab**
-
-
-
-### 15.
-**Jawab**
-
-
-
-
+-> Pada persoalan no. 10 (Masih belum dapat membedakan penggunaan filter untuk mendapatkan file 
 
