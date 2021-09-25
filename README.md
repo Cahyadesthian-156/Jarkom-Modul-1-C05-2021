@@ -1,4 +1,10 @@
 # Jarkom-Modul-1-C05-2021
+Cahyadesthian Rizki Widigda (05111940000156)
+
+Ricky Supriyanto (05111940000036)
+
+Ghifari Astaudi U (05111940000012)
+
 # Praktikum Modul 1
 ## 📅 20 September 2021
 
