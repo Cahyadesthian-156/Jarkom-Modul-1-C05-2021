@@ -82,16 +82,16 @@ Langkah
 ->Pada bagian filter menuliskan ftp-data contains "Real.pdf"
 <img src="screenshot/nomer7-filter.png" width="800"> 
 
--> lalu dari kedua paket yang muncul, dapat dipilih salah satu untuk kemudian di klik kanan pada paket tersebut kemudian follow-> TCP Stream
+-> lalu dari kedua paket yang muncul, dapat dipilih salah satu untuk kemudian di klik kanan pada paket tersebut kemudian follow-> TCP Stream. Berikut hasilnya:
 <img src="screenshot/nomer7-ascii.png" width="800"> 
 
--> setelah itu pada bagian show data as diubah dari ASCII ke format RAW lalu di Save as … dengan nama file misal nomer7 dan berekstensi zip
+-> setelah itu pada bagian show data as diubah dari ASCII ke format RAW lalu di Save as … dengan nama file misal no.7 dan berekstensi zip
 <img src="screenshot/nomer7-raw.png" width="800"> 
 
 -> setelah itu membuka file hasil download tersebut
 <img src="screenshot/nomer7-zip.png" width="800"> 
 
--> kemudian saat dibuka filenya akan menampilkan halaman berikut
+-> kemudian saat dibuka file zipnya terdapat pdf bernama "Real.pdf" akan menampilkan halaman berikut
 <img src="screenshot/nomer7-pdf.png" width="800"> 
 
 
@@ -108,7 +108,7 @@ Pada filter yang digunakan yaitu ftp.request.command == RETR dimana akan mencari
 ### 9. Dari paket-paket yang menuju FTP terdapat indikasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!
 **Jawab:**
 
-Langkah
+Langkah:
 
 -> Pada filter mengetikkan ftp-data.command contains "secret.zip"
 <img src="screenshot/nomer9-filter.png" width="800"> 
@@ -116,11 +116,11 @@ Langkah
 -> Kemudian follow TCP Stream pada salah satu hasil
 <img src="screenshot/nomer9-ascii.png" width="800"> 
 
--> Kemudian ubah data dari ASCII menjadi RAW kemudian save as .zip
+-> Kemudian ubah data dari ASCII menjadi RAW kemudian save as no.9.zip
 <img src="screenshot/nomer9-raw.png" width="800"> 
 <img src="screenshot/nomer9-zip.png" width="800"> 
 
--> Ketika dibuka masih ada yang perlu diproses
+-> Ketika dibuka akan menampilkan Wanted.pdf yang masih perlu diproses
 <img src="screenshot/nomer9-password.png" width="800"> 
 
 
@@ -132,8 +132,7 @@ Langkah
 -> Pada filter wireshark menuliskan ftp-data contains "history" 
 <img src="screenshot/nomer10-history.png" width="800"> 
 
--> Follow TCP yang di tuju
-
+-> Follow TCP stream yang di tuju dan akan menampilkan seperti berikut
 <img src="screenshot/nomer10-isi-history.png" width="800"> 
 
 -> Pada bagian line-based terdapat beberapa tulisan seperti “bukanapaapa.txt” lalu ftp-data.command contains "bukanapaapa" 
@@ -150,7 +149,7 @@ Langkah
 **Jawab:**
 
 Langkah
--> Pada filter wireshark menuliskan ```“tcp src port 80``` untuk mengambil paket yang berasal dari port 80
+-> Pada filter wireshark menuliskan ```tcp src port 80``` untuk mengambil paket yang berasal dari port 80
 <img src="screenshot/no 11.PNG" width="800"> 
 
 
@@ -158,7 +157,7 @@ Langkah
 **Jawab:**
 
 Langkah
--> Paket yang mengandung filezilla terdapat pada saat kita melakukan akses ke fi ftp://ip adress (ftp://192.168.43.165/) dan  Pada filter wireshark menuliskan ```port 21```
+-> Paket yang mengandung filezilla terdapat pada saat kita melakukan akses ke fi ftp://ip adress (ftp://192.168.43.165/), setelah itu pada filter wireshark menuliskan ```port 21``` dan melakukan login salah satu user pada ftp tersebut
 <img src="screenshot/no 12.PNG" width="800"> 
 
 
@@ -174,7 +173,7 @@ Langkah
 **Jawab:**
 
 Langkah
--> Pada filter wireshark menuliskan ```dst host kemenag.go.id```
+-> Pada filter wireshark menuliskan ```dst host kemenag.go.id```, lalu mengakses halaman ```kemenag.go.id``` pada browser. Berikut adalah hasil filternya:
 <img src="screenshot/no 14.PNG" width="800"> 
 
 
@@ -182,7 +181,7 @@ Langkah
 **Jawab**
 
 Langkah
--> Mencari ip kita dengan menggunakan Command Prompt dengan perintah ```ipconfig```
+-> Pertama mencari ip kita dengan menggunakan Command Prompt dengan perintah ```ipconfig```
 <img src="screenshot/no 15 ip address.png" width="800"> 
 
 -> Pada filter wireshark menuliskan ```src net 192.168.1.4```
@@ -191,6 +190,6 @@ Langkah
 ### Kendala Praktikum:
 
 -> Pada persoalan no.12 (Port 21 tidak menampilkan apa apa)
-
+-> Pada persoalan no.12 (Tidak dapat mengakses ftp yang dituju)
 -> Pada persoalan no. 10 (Masih belum dapat membedakan penggunaan filter untuk mendapatkan file 
 
