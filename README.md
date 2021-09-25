@@ -70,7 +70,7 @@ dari kiri ke kanan
 ### 6. Cari username dan password ketika melakukan login ke FTP Server!
 **Jawab:**
 Langkah:
-Menghidupkan Wireshark dan filter dengan keyword “ftp.request.command == PASS || ftp.request.command == USER”
+Membuka data soal Wireshark dan filter dengan keyword “ftp.request.command == PASS || ftp.request.command == USER”
 Hasil:
 <img src="screenshot/nomer6.png" width="800"> 
 
@@ -190,6 +190,8 @@ Langkah
 ### Kendala Praktikum:
 
 -> Pada persoalan no.12 (Port 21 tidak menampilkan apa apa)
+
 -> Pada persoalan no.12 (Tidak dapat mengakses ftp yang dituju)
+
 -> Pada persoalan no. 10 (Masih belum dapat membedakan penggunaan filter untuk mendapatkan file 
 
